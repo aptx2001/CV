@@ -28,17 +28,21 @@ table {
 }
 
 td {
-  border-bottom: 3px dotted tomato;
+  border-bottom: 3px dotted royalblue;
+  border-left: 3px dotted royalblue;
   border-collapse: collapse;
-  padding: 10px;
+  padding: 5px;
 }
 
 th {
+  border-left: 30px dotted hotpink;
+  line-height: 25px;
   font-weight: bold;
+  color: orangered;
 }
 
 li {
-  margin-left: 20px;
+  margin-left: 0px;
 }
 
 footer {
@@ -47,9 +51,22 @@ footer {
   text-align: center;
 }
 
-td:hover {
-  background-color: greenyellow;
+a href {
+  background-color: orangered;
 }
+
+.right {
+  text-align: right;
+  border-left: none;
+
+}
+
+
+.click:hover {
+  background-color: orangered;
+  color: antiquewhite;
+}
+
 
 @media screen and (max-width: 704px) {
 
