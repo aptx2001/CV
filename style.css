@@ -10,6 +10,45 @@ body {
   line-height: 20pt;
 }
 
+.cv {
+    position: absolute;
+    height: 500%;
+    width: 500px;
+    overflow-y: hidden;
+}
+
+.details {
+    position: absolute;
+    height: 500%;
+    width: calc(100% - 500px);
+    margin-left: 500px;
+    overflow-y: hidden;
+}
+
+div{
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.content {
+    display: absolute;
+    height: 200%;
+    /*  overflow-y:auto;*/
+}
+
+.content:target {
+    display: block;
+}
+
+a:visited {
+    color: royalblue;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
 h1 {
   text-align: center;
   font-size: 13pt;
@@ -44,14 +83,10 @@ th {
   color: orangered;
 }
 
-li {
-  margin-left: 0px;
-}
-
 img {
   width: 300px;
   display : block;
-margin: auto
+  margin: auto
 }
 
 footer {
@@ -70,7 +105,6 @@ a href {
 
 }
 
-
 .click:hover {
   background-color: orangered;
   color: antiquewhite;
@@ -78,7 +112,15 @@ a href {
 
 
 @media screen and (max-width: 704px) {
-
+    .nav {
+        position: absolute;
+        width: 100%;
+        height: 100px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        padding: 20px;
+        border-right: 1px solid black;
+    }
 }
 
 
