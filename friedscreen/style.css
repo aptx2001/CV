@@ -8,13 +8,6 @@ body {
     margin: 20px;
 }
 
-video {
-	height: 500px;
-}
-
-img {
-	height: 500px;
-}
 
 
 @media screen and (max-width: 704px) {
